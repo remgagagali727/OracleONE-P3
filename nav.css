@@ -1,0 +1,42 @@
+header{
+    color: white;
+    background: #333333;
+}
+
+#headerDiv{
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    top: 100px;
+    position: absolute;
+    right: 50px;
+}
+
+#logoDiv{
+    padding: 20px;
+}
+
+.logoImg{
+    width: 150px;
+}
+
+nav li{
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+    font-size: 25;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #da8e01;
+    text-decoration: underline;
+}

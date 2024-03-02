@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+    color: #111111;
+}
+
+.selectcombo{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.selectcombo li{
+    color: #111111;
+    vertical-align: top;
+    display: inline-block;
+    margin: auto 1.5%;
+    margin-top: 100px;
+    text-align: center;
+    width: 30%;
+    padding: 50px 2%;
+    border-width: 2px;
+    border-radius: 10%;
+    border-style: dashed;
+    border-color: #111111;
+    box-sizing: border-box;
+}
+
+.selectcombo li:hover{
+    border-color: #da8e01;
+    background-color: #DEDEDE;
+}
+
+.selectcombo li:active{
+    border-color: green;
+}
+
+.selectcombo li:hover h2{
+    font-size: 33px;
+}
+
+.selectcombo h2 {
+    font-size: 30xp;
+    font-weight: bold;
+}
+
+.pickCombo{
+    width: 130px;
+    height: 130px;
+}
+
+.productDesc{
+    font-size: 18px;
+}
+
+.productPrice{
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background: url(img/footerBackground.jpg);
+    padding: 40px;
+}
+
+
+footer img{
+    padding: 15px;
+}
