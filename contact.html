@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Barbería Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="default.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="styleContact.css">
+        <link rel="stylesheet" href="foot.css">
+    </head>
+    <body>
+        <header>
+            <div id="headerDiv">
+                <div id="logoDiv">
+                    <h1 class="mainTitle">Barbería Alura</h1>
+                    <h1>
+                        <img src="img/logo.png" alt="Logo" class="logoImg">
+                    </h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form class="contactUs">
+                <label for="nombreapellido" class="subtitle">Nombre(s) y Apellidos:</label>
+                <input type="text" id="nombreapellido" class="textBox formObject">
+
+                <label for="correoelectronico" class="subtitle">Correo Electronico:</label>
+                <input type="email" id="correoelectronico" class="textBox formObject">
+
+                <label for="telefono" class="subtitle">Teléfono:</label>
+                <input type="number" id="telefono" class="textBox formObject">
+
+                <label for="opinion" class="subtitle">Opinión</label>
+                <textarea id="opinion" cols="58" rows="10" class="formObject"></textarea>
+
+                <div class="formObject">
+                    <p class="subtitle" >¿Cómo le gustaria que lo contactemos?</p>
+
+                    <label for="radiowsp" class="contactRadio">
+                        <input type="radio" value="wsp" id="radiowsp" name="contacto">
+                        WhatsApp
+                    </label>
+                    
+                    
+                    <label for="radiotel" class="contactRadio">
+                        <input type="radio" value="tel" id="radiotel" name="contacto">
+                        Teléfono
+                    </label>
+                    
+
+                    <label for="radioem" class="contactRadio">
+                        <input type="radio" value="em" id="radioem" name="contacto"> 
+                        Email
+                    </label>
+                    
+
+                </div>
+
+                <div class="formObject">
+                    <p class="subtitle">¿En qué horario prefiere ser atendido?</p>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </div>
+
+                <label class="formObject subtitle"><input type="checkbox" checked="true">Me gustaría recibir novedades</label>
+
+                <input type="submit" value="Enviar Formulario" class="submit">
+            </form>
+        </main>
+
+        <footer>
+            <img src="img/logo.png" alt="logo" class="logoImg">
+            <p>&copy; Copyright Barbería Alura - 2024</p>
+        </footer>
+    </body>
+</html>

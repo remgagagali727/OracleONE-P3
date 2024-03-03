@@ -57,15 +57,3 @@ body{
     margin-top: 10px;
     font-weight: bold;
 }
-
-footer{
-    text-align: center;
-    color: white;
-    background: url(img/footerBackground.jpg);
-    padding: 40px;
-}
-
-
-footer img{
-    padding: 15px;
-}

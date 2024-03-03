@@ -1,0 +1,37 @@
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contactUs{
+    margin: 40px;
+}
+
+.contactUs .formObject{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contactUs .subtitle{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.contactUs .textBox{
+    width: 35%;
+    height: 30px;
+}
+
+.contactUs textarea{
+    resize: none;
+}
+
+.contactUs .contactRadio{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contactUs .submit{
+    margin-top: 20px;
+}
