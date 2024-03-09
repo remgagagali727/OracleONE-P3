@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 
-<html>
+<html>  
     <head>
         <meta charset="UTF-8">
         <title>Contacto - Barbería Alura</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="default.css">
         <link rel="stylesheet" href="nav.css">
-        <link rel="stylesheet" href="styleContact.css">
         <link rel="stylesheet" href="foot.css">
+        <link rel="stylesheet" href="styleContact.css">
     </head>
     <body>
         <header>
@@ -32,19 +32,19 @@
         <main>
             <form class="contactUs">
                 <label for="nombreapellido" class="subtitle">Nombre(s) y Apellidos:</label>
-                <input type="text" id="nombreapellido" class="textBox formObject">
+                <input type="text" id="nombreapellido" class="textBox formObject" required>
 
                 <label for="correoelectronico" class="subtitle">Correo Electronico:</label>
-                <input type="email" id="correoelectronico" class="textBox formObject">
+                <input type="email" id="correoelectronico" class="textBox formObject" required placeholder="email@dominio.com">
 
                 <label for="telefono" class="subtitle">Teléfono:</label>
-                <input type="number" id="telefono" class="textBox formObject">
+                <input type="number" id="telefono" class="textBox formObject" required placeholder="XX XXXX XXXX">
 
                 <label for="opinion" class="subtitle">Opinión</label>
-                <textarea id="opinion" cols="58" rows="10" class="formObject"></textarea>
+                <textarea id="opinion" cols="58" rows="10" class="formObject" required></textarea>
 
-                <div class="formObject">
-                    <p class="subtitle" >¿Cómo le gustaria que lo contactemos?</p>
+                <fieldset class="formObject">
+                    <legend class="subtitle" >¿Cómo le gustaria que lo contactemos?</legend>
 
                     <label for="radiowsp" class="contactRadio">
                         <input type="radio" value="wsp" id="radiowsp" name="contacto">
@@ -59,26 +59,50 @@
                     
 
                     <label for="radioem" class="contactRadio">
-                        <input type="radio" value="em" id="radioem" name="contacto"> 
+                        <input type="radio" value="em" id="radioem" name="contacto" checked> 
                         Email
                     </label>
                     
 
-                </div>
+                </fieldset>
 
-                <div class="formObject">
+                <fieldset class="formObject">
                     <p class="subtitle">¿En qué horario prefiere ser atendido?</p>
                     <select>
                         <option>Mañana</option>
                         <option>Tarde</option>
                         <option>Noche</option>
                     </select>
-                </div>
+                </fieldset>
 
-                <label class="formObject subtitle"><input type="checkbox" checked="true">Me gustaría recibir novedades</label>
+                <label class="formObject subtitle"><input type="checkbox" checked>Me gustaría recibir novedades</label>
 
                 <input type="submit" value="Enviar Formulario" class="submit">
             </form>
+
+            <table class="contactUs tableContact">
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>8hrs - 20hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>8hrs - 20hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>8hrs - 20hrs</td>
+                    </tr>
+                </tbody>
+            </table>
+            
         </main>
 
         <footer>
