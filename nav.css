@@ -40,3 +40,20 @@ nav a:hover {
     color: #da8e01;
     text-decoration: underline;
 }
+
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+    
+    nav{
+        display: block;
+        position: static;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    ul{
+        display: block;
+    }
+}
